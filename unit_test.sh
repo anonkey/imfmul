@@ -22,5 +22,5 @@ if [ $err -eq 0 ]
 then
     :
 else
-    echo "Echecs : $err" > 2
+    echo "Echecs : $err" >&2
 fi
